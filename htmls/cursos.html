@@ -6,12 +6,43 @@
 <title>Escuelas</title>
 <link rel="stylesheet" href="/css/estilo.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+<link rel="stylesheet" href="/css/styles_index.css">
+</head>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <body>
+
+<header class="header" id="header">
+    <div class="header__inner">
+        <a href="/index.html" class="logo">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="10" width="4" height="10" rx="1" fill="#98CA3F"/>
+                <rect x="10" y="4" width="4" height="16" rx="1" fill="#98CA3F"/>
+                <rect x="18" y="14" width="4" height="6" rx="1" fill="#98CA3F"/>
+            </svg>
+            <span>Platzi</span>
+        </a>
+
+        <nav class="nav" id="mainNav">
+            <a href="/index.html">Inicio</a>
+            <a href="/htmls/cursos.html">Cursos</a>
+            <a href="/htmls/profesores.html">Profesores</a>
+            <a href="#">Información</a>
+            <a href="#">Planes</a>
+        </nav>
+
+        <div class="header__actions">
+            <button class="btn btn--ghost" id="loginBtn">Acceder</button>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
 
 <section class="schools">
 
