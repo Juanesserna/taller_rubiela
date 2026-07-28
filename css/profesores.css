@@ -1,0 +1,81 @@
+/* ===================================================
+   PROFESORES - estilos complementarios
+   Si tu styles_index.css ya define .teacher-card, puedes
+   omitir este archivo o fusionar solo lo que te falte.
+   =================================================== */
+
+.teachers {
+  padding: 64px 24px 96px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.teachers__inner {
+  text-align: center;
+}
+
+.teachers__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.teachers__subtitle {
+  color: #6b7280;
+  max-width: 560px;
+  margin: 0 auto 40px;
+}
+
+.teachers__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  text-align: left;
+}
+
+.teacher-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.teacher-card__avatar {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  border-radius: 50%;
+  background: #98CA3F;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+/* Cuando la foto sí carga, se recorta como círculo perfecto */
+.teacher-card__avatar--photo {
+  object-fit: cover;
+}
+
+.teacher-card__body h4 {
+  margin: 0 0 2px;
+  font-size: 1rem;
+}
+
+.teacher-card__body p {
+  margin: 0 0 6px;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.teacher-card__body a {
+  color: #98CA3F;
+  font-size: 0.85rem;
+  text-decoration: none;
+  font-weight: 600;
+}
