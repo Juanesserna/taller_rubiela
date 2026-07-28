@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Profesores | Platzi</title>
-<link rel="stylesheet" href="../css/styles_index.css">
-<link rel="stylesheet" href="../css/profesores.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Profesores | Platzi</title>
+  <link rel="stylesheet" href="../css/styles_index.css">
+  <link rel="stylesheet" href="../css/profesores.css">
 </head>
+
 <body>
 
   <!-- HEADER -->
@@ -14,18 +16,18 @@
     <div class="header__inner">
       <a href="../index.html" class="logo">
         <svg viewBox="0 0 24 24" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2" y="10" width="4" height="10" rx="1" fill="#98CA3F"/>
-          <rect x="10" y="4" width="4" height="16" rx="1" fill="#98CA3F"/>
-          <rect x="18" y="14" width="4" height="6" rx="1" fill="#98CA3F"/>
+          <rect x="2" y="10" width="4" height="10" rx="1" fill="#98CA3F" />
+          <rect x="10" y="4" width="4" height="16" rx="1" fill="#98CA3F" />
+          <rect x="18" y="14" width="4" height="6" rx="1" fill="#98CA3F" />
         </svg>
         <span>Platzi</span>
       </a>
 
       <nav class="nav" id="mainNav">
         <a href="/index.html">Inicio</a>
-        <a href="../index.html#cursos">Cursos</a>
-        <a href="#">Profesores</a>
-        <a href="informacion.html">Información</a>
+        <a href="/htmls/cursos.html">Cursos</a>
+        <a href="/htmls/profesores.html">Profesores</a>
+        <a href="/htmls/informacion.html">Información</a>
         <a href="../index.html#live">Planes</a>
       </nav>
 
@@ -42,64 +44,67 @@
   <main>
     <section class="teachers" id="teachers">
       <div class="teachers__inner">
-        <h2 class="teachers__title">Nuestros profesores</h2>
-        <p class="teachers__subtitle">Aprende con expertos de la industria que trabajan en las mejores empresas del mundo.</p>
+        <h2 class="teachers__title">Nuestros profesores son<br>expertos de la industria</h2>
 
         <div class="teachers__grid" id="teachersGrid">
 
           <div class="teacher-card">
-            <img
-              class="teacher-card__avatar teacher-card__avatar--photo"
-              src="/img/serna.jpeg"
-              alt="Juan Serna"
-              onerror="this.outerHTML='<div class=&quot;teacher-card__avatar&quot;>JS</div>'"
-            >
-            <div class="teacher-card__body">
+            <img class="teacher-card__photo" src="/img/serna.jpeg" alt="Juan Serna"
+              >
+            <div class="teacher-card__overlay">
               <h4>Juan Serna</h4>
-              <p>Profesor en Platzi</p>
-              <a href="#">Ver curso &rarr;</a>
+              <p class="teacher-card__role">Profesor en Platzi</p>
+              <div class="teacher-card__divider"></div>
+              <a href="#" class="teacher-card__course">
+                <span class="teacher-card__icon"></span>
+                <span class="teacher-card__course-text">Curso de Ejemplo</span>
+                <span class="teacher-card__arrow">›</span>
+              </a>
             </div>
           </div>
 
           <div class="teacher-card">
-            <img
-              class="teacher-card__avatar teacher-card__avatar--photo"
-              src="/img/camilo.png"
-              alt="Camilo Valle"
-              onerror="this.outerHTML='<div class=&quot;teacher-card__avatar&quot;>CV</div>'"
-            >
-            <div class="teacher-card__body">
+            <img class="teacher-card__photo" src="/img/camilo.png" alt="Camilo Valle"
+              >
+            <div class="teacher-card__overlay">
               <h4>Camilo Valle</h4>
-              <p>Profesor en Platzi</p>
-              <a href="#">Ver curso &rarr;</a>
+              <p class="teacher-card__role">Profesor en Platzi</p>
+              <div class="teacher-card__divider"></div>
+              <a href="#" class="teacher-card__course">
+                <span class="teacher-card__icon"></span>
+                <span class="teacher-card__course-text">Curso de Ejemplo</span>
+                <span class="teacher-card__arrow">›</span>
+              </a>
             </div>
           </div>
 
           <div class="teacher-card">
-            <img
-              class="teacher-card__avatar teacher-card__avatar--photo"
-              src="../img/teachers/juan-benitez.jpg"
-              alt="Juan Benitez"
-              onerror="this.outerHTML='<div class=&quot;teacher-card__avatar&quot;>JB</div>'"
-            >
-            <div class="teacher-card__body">
+            <img class="teacher-card__photo" src="../img/benitex.png" alt="Juan Benitez"
+              >
+            <div class="teacher-card__overlay">
               <h4>Juan Benitez</h4>
-              <p>Profesor en Platzi</p>
-              <a href="#">Ver curso &rarr;</a>
+              <p class="teacher-card__role">Profesor en Platzi</p>
+              <div class="teacher-card__divider"></div>
+              <a href="#" class="teacher-card__course">
+                <span class="teacher-card__icon"></span>
+                <span class="teacher-card__course-text">Curso de Ejemplo</span>
+                <span class="teacher-card__arrow">›</span>
+              </a>
             </div>
           </div>
 
           <div class="teacher-card">
-            <img
-              class="teacher-card__avatar teacher-card__avatar--photo"
-              src="/img/jordy.jpeg"
-              alt="Jordy Ramirez"
-              onerror="this.outerHTML='<div class=&quot;teacher-card__avatar&quot;>JR</div>'"
-            >
-            <div class="teacher-card__body">
+            <img class="teacher-card__photo" src="/img/jordy.jpeg" alt="Jordy Ramirez"
+              >
+            <div class="teacher-card__overlay">
               <h4>Jordy Ramirez</h4>
-              <p>Profesor en Platzi</p>
-              <a href="#">Ver curso &rarr;</a>
+              <p class="teacher-card__role">Profesor en Platzi</p>
+              <div class="teacher-card__divider"></div>
+              <a href="#" class="teacher-card__course">
+                <span class="teacher-card__icon"></span>
+                <span class="teacher-card__course-text">Curso de Ejemplo</span>
+                <span class="teacher-card__arrow">›</span>
+              </a>
             </div>
           </div>
 
@@ -109,4 +114,5 @@
   </main>
 
 </body>
+
 </html>
