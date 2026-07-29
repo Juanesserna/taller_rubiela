@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planes de Suscripción - Platzi</title>
+  <link rel="stylesheet" href="../css/planes.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR CON LOGO EXACTO (IL. PLATZI) Y BOTÓN ACCEDER -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="../index.html" class="logo">
+        <svg class="logo-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="10" width="4" height="11" rx="1.5" fill="#97C93E"/>
+          <rect x="10" y="5" width="4" height="16" rx="1.5" fill="#97C93E"/>
+          <rect x="17" y="12" width="4" height="9" rx="1.5" fill="#97C93E"/>
+        </svg>
+        <span>Platzi</span>
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <a href="../index.html">Inicio</a>
+        <a href="./cursos.html">Cursos</a>
+        <a href="./profesores.html">Profesores</a>
+        <a href="./informacion.html">Información</a>
+        <a href="./planes.html" class="active">Planes</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="btn btn--outline-nav">Acceder</button>
+      </div>
+
+      <button class="hamburger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SECCIÓN DE PLANES CON EL DISEÑO EXACTO DE LA CAPTURA -->
+  <section class="pricing-section">
+    <div class="pricing-container">
+      
+      <div class="pricing-header">
+        <h2>Planes de aprendizaje a <span>tu medida</span></h2>
+        <p class="pricing-subtitle">Invierte en tu futuro con acceso ilimitado a más de 1,000 cursos.</p>
+        
+        <div class="toggle-switch">
+          <button class="toggle-opt active">Individual</button>
+          <button class="toggle-opt">Para Empresas</button>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+
+        <!-- PLAN BASIC -->
+        <article class="custom-card">
+          <div class="card-top">
+            <span class="plan-tag">FLEXIBLE</span>
+            <h3 class="plan-title">Plan Basic</h3>
+            <p class="plan-target">Para 1 estudiante</p>
+          </div>
+
+          <div class="card-price">
+            <span class="currency">CO $</span>
+            <span class="price-val">179.000</span>
+            <span class="price-period">/mes</span>
+          </div>
+          <p class="sub-billing">Renovación mensual automática</p>
+
+          <div class="divider"></div>
+
+          <ul class="features-list">
+            <li class="item-included">Acceso a catálogo completo</li>
+            <li class="item-included">Certificados digitales oficiales</li>
+            <li class="item-excluded">Sin certificados físicos</li>
+            <li class="item-excluded">Sin descargas en app móvil</li>
+            <li class="item-excluded">Sin acceso a Platzi Conf</li>
+          </ul>
+
+          <button class="btn-card btn-outline">Elegir Plan Basic</button>
+        </article>
+
+        <!-- PLAN EXPERT -->
+        <article class="custom-card featured-card">
+          <div class="badge-discount">🔥 AHORRAS 7 MESES</div>
+          
+          <div class="card-top">
+            <span class="plan-tag tag-green">MÁS POPULAR</span>
+            <h3 class="plan-title">Plan Expert</h3>
+            <p class="plan-target">Para 1 estudiante</p>
+          </div>
+
+          <div class="card-price">
+            <span class="currency">CO $</span>
+            <span class="price-val">999.000</span>
+            <span class="price-period">/año</span>
+          </div>
+          <p class="sub-billing green-text">ⓘ 4 cuotas de $249.750 sin interés</p>
+
+          <div class="divider"></div>
+
+          <ul class="features-list">
+            <li class="item-included">Acceso ilimitado a todas las escuelas</li>
+            <li class="item-included">Certificados digitales e impresos</li>
+            <li class="item-included">Descarga contenido en la App</li>
+            <li class="item-included">Acceso a eventos exclusivos</li>
+            <li class="item-included">Escuelas de Inglés y Liderazgo</li>
+          </ul>
+
+          <button class="btn-card btn-green">Elegir Plan Expert</button>
+        </article>
+
+        <!-- PLAN EXPERT DUO -->
+        <article class="custom-card">
+          <div class="badge-discount-subtle">AHORRAS 8 MESES</div>
+
+          <div class="card-top">
+            <span class="plan-tag">PAREJAS</span>
+            <h3 class="plan-title">Expert Duo</h3>
+            <p class="plan-target">Para 2 estudiantes</p>
+          </div>
+
+          <div class="card-price">
+            <span class="currency">CO $</span>
+            <span class="price-val">1.499.000</span>
+            <span class="price-period">/año</span>
+          </div>
+          <p class="sub-billing">ⓘ 4 cuotas de $374.750 sin interés</p>
+
+          <div class="divider"></div>
+
+          <ul class="features-list">
+            <li class="item-included">Todos los beneficios de Expert</li>
+            <li class="item-included">2 cuentas 100% independientes</li>
+            <li class="item-included">Certificados para ambos usuarios</li>
+            <li class="item-included">Descargas sin conexión en App</li>
+            <li class="item-included">Pases VIP a Platzi Conf</li>
+          </ul>
+
+          <button class="btn-card btn-outline">Elegir Expert Duo</button>
+        </article>
+
+        <!-- PLAN EXPERT GROUPS -->
+        <article class="custom-card">
+          <div class="badge-discount-subtle">AHORRAS 46 MESES</div>
+
+          <div class="card-top">
+            <span class="plan-tag">EQUIPOS</span>
+            <h3 class="plan-title">Expert Groups</h3>
+            <p class="plan-target">De 4 a 50 estudiantes</p>
+          </div>
+
+          <div class="card-price">
+            <span class="currency">CO $</span>
+            <span class="price-val">2.002.795</span>
+            <span class="price-period">/año</span>
+          </div>
+          
+          <div class="group-selector">
+            <span>Integrantes:</span>
+            <div class="stepper">
+              <button>-</button>
+              <input type="text" value="4" readonly>
+              <button>+</button>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <ul class="features-list">
+            <li class="item-included">Panel de control de avances</li>
+            <li class="item-included">Factura empresarial disponible</li>
+            <li class="item-included">Acceso completo a catálogo</li>
+            <li class="item-included">Certificaciones grupales</li>
+          </ul>
+
+          <button class="btn-card btn-outline">Elegir Expert Groups</button>
+        </article>
+
+      </div>
+
+      <p class="legal-footer-note">Servicio SaaS excluido de IVA (Art. 476 E.T.)</p>
+    </div>
+  </section>
+
+  <!-- FOOTER REINTEGRADO -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="10" width="4" height="11" rx="1.5" fill="#97C93E"/>
+            <rect x="10" y="5" width="4" height="16" rx="1.5" fill="#97C93E"/>
+            <rect x="17" y="12" width="4" height="9" rx="1.5" fill="#97C93E"/>
+          </svg>
+          <span>Platzi</span>
+        </div>
+        <p>Aprende tecnología, diseño y negocios. Transforma tu carrera profesional hoy mismo.</p>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Plataforma</h4>
+          <a href="#">Cursos</a>
+          <a href="./planes.html">Planes</a>
+          <a href="#">Empresas</a>
+        </div>
+        <div class="footer-col">
+          <h4>Comunidad</h4>
+          <a href="#">Blog</a>
+          <a href="#">Foro</a>
+          <a href="#">Eventos</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Términos</a>
+          <a href="#">Privacidad</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Platzi Inc. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
