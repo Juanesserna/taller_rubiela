@@ -1,11 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Platzi  Educación Profesional Online</title>
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hola</h1>
+
+  <!-- NAVBAR UNIFICADO -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="10" width="4" height="11" rx="1.5" fill="#97C93E"/>
+          <rect x="10" y="5" width="4" height="16" rx="1.5" fill="#97C93E"/>
+          <rect x="17" y="12" width="4" height="9" rx="1.5" fill="#97C93E"/>
+        </svg>
+        <span>Platzi</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="/htmls/cursos.html">Cursos</a>
+        <a href="/htmls/profesores.html">Profesores</a>
+        <a href="/htmls/informacion.html">Información</a>
+        <a href="/htmls/planes.html">Planes</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="btn--outline-nav">Acceder</button>
+      </div>
+
+      <button class="hamburger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO PRINCIPAL DE BIENVENIDA -->
+  <main class="hero-section">
+    <div class="hero-container">
+      <span class="hero-badge">🚀 Impulsa tu futuro profesional</span>
+      <h1 class="hero-title">Aprende tecnología, diseño y negocios en <span class="green-text">Platzi</span></h1>
+      <p class="hero-subtitle">
+        Únete a la comunidad de aprendizaje en línea más grande de Latinoamérica. Domina las habilidades con mayor demanda en el mercado global.
+      </p>
+      
+      <div class="hero-buttons">
+        <a href="html/planes.html" class="btn-hero-primary">Ver Planes</a>
+        <a href="html/cursos.html" class="btn-hero-secondary">Explorar Cursos</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER UNIFICADO -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="10" width="4" height="11" rx="1.5" fill="#97C93E"/>
+            <rect x="10" y="5" width="4" height="16" rx="1.5" fill="#97C93E"/>
+            <rect x="17" y="12" width="4" height="9" rx="1.5" fill="#97C93E"/>
+          </svg>
+          <span>Platzi</span>
+        </div>
+        <p>Aprende tecnología, diseño y negocios. Transforma tu carrera profesional hoy mismo.</p>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Plataforma</h4>
+          <a href="html/cursos.html">Cursos</a>
+          <a href="html/planes.html">Planes</a>
+          <a href="#">Empresas</a>
+        </div>
+        <div class="footer-col">
+          <h4>Comunidad</h4>
+          <a href="#">Blog</a>
+          <a href="#">Foro</a>
+          <a href="#">Eventos</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Términos</a>
+          <a href="#">Privacidad</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Platzi Inc. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
